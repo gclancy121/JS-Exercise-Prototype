@@ -117,10 +117,10 @@ console.log('task 3', child.play());
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Default binding - "this" binds things to the window
+  2. implicit binding - dot or bracket syntax
+  3. explicit binding - specifically call functions to hook up "this" to a given value
+  4. new binding - a new object is created and "this" references the parts of the new object
 */
 
 
