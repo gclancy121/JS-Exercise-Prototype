@@ -106,11 +106,12 @@ function Baby(name,age,favoriteToy) {
 Person.call(this,name,age);
 this.favoriteToy=favoriteToy;
 };
+Baby.prototype=Object.create(Person.prototype);
 Baby.prototype.play=function() {
   return `Playing with ${this.favoriteToy}`
 }
 
-const child=new Baby("Jose", 15, 'thing');
+const child=new Baby("Jose", 1, 'xbox 360');
 console.log('task 3', child.play());
 
 /* 
